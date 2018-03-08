@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>忘记密码</title>
+	<link rel="stylesheet" href="../css/forgetpass.css">
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../css/c_iconfont.css">
+</head>
+<body>
+	<div class="logo_box">
+		<div class="logo_header">
+			<div>
+				<h1>
+					<a href="###">
+						<img src="../image/logo.png" alt="丫丫网" width="180" height="82">
+					</a>
+				</h1>
+			</div>
+			<div>找回密码</div>
+			<div class="logo_jump">想起密码，立即
+			<a href="login.html">【登录】</a></div>
+		</div>
+	</div>
+	<div class="forgetpass">
+		<div class="forgetpass_con">
+			<ul class="forgetpass_con_top clearfix">
+				<li class="forgetpass_con_top_a">1.验证身份
+					<img src="../image/forget_transp.png" alt="" width="21" height="31">
+				</li>
+				<li class="forgetpass_con_top_b">2.设置新密码
+					<img src="../image/forget_transp.png" alt="" width="21" height="31">
+				</li>
+				<li>3.设置成功</li>
+			</ul>
+
+			<form action="">
+				<div class="forget_phone clearfix">
+					<div class="forget_phone_img">手机号</div>
+					<input type="text" class="forget_phone_input" name="forget_phone" placeholder="输入手机接收注册验证码">
+				</div>
+
+				<div class="forget_photo clearfix">
+					<div class="forget_photo_img">图片验证码</div>
+
+					<!-- <input type="text" class="forget_photo_input" name="forget_photo" placeholder="请输入图片验证码">
+					<div class="forget_photo_input_a">|</div>
+					<div class="forget_photo_input_code"></div> -->
+					
+					<div class="forget_photo_input clearfix">
+						<div class="forget_photo_input_a">|</div>
+						<div class="forget_photo_input_code" id="mpanel2"></div>
+						
+						
+					</div>
+				</div>
+
+
+
+
+
+
+				<div class="forget_info clearfix">
+					<div class="forget_info_img">短信验证码</div>
+					<input type="text" class="forget_info_input" name="forget_info" placeholder="请查收您的短信验证码">
+					<div class="forget_info_input_a">|</div>
+					<div class="forget_info_input_code">获取验证码</div>
+				</div>
+			</form>
+
+			<div class="forget_next" id="check-btn">下一步</div>
+		</div>
+	</div>
+
+	
+	<!--  尾部  -->
+	<div class="forget_footer">
+		<ul class="footer_list">
+			<li><a href="###">关于丫丫</a></li>
+			<li><a href="###">会员俱乐部</a></li>
+			<li><a href="###">高薪诚聘</a></li>
+			<li><a href="###">业务合作</a></li>
+			<li><a href="###">会员积分</a></li>
+			<li><a href="###">投诉建议</a></li>
+		</ul>
+		<div class="footer_copyright">
+			版权所有 丫丫网 © Copyright 2007 - 2016 www.yaya.cn All Rights Reserved.   
+			<span><a href="###">滇ICP备11005817号-7</a></span>   
+			<span><a href="###">滇公网安备53011102000207号</a></span>
+			<div>增值电信业务经营许可证：滇B2-20160011</div>
+		</div>
+	</div>
+
+	<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+	 <script type="text/javascript" src="../js/verify.min.js" ></script>
+	<script src="../js/forgetpass.js"></script>
+</body>
+</html>

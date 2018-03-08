@@ -1,0 +1,240 @@
+.logo_box{
+	width: 100%;
+	background:#FEFFFE;
+}
+.logo_header{
+	width: 1240px;
+	height: 125px;
+	margin:0 auto;
+}
+.logo_header div{
+	float: left;
+	line-height: 125px;
+}
+.logo_header div:nth-child(1){
+	margin-top:20px;
+}
+.logo_header div:last-child{
+	float: right;
+	color:#656665;
+	font-size: 16px;
+}
+.logo_header div:nth-child(2){
+	font-size: 30px;
+	margin-left: 23px;
+	font-weight: 400;
+}
+.logo_jump a{
+	text-decoration: none;
+	color:#F77705;
+}
+
+/**** 中间 border ******/  
+.forgetpass{
+	width: 100%;
+	height: 560px;
+	background: #F6F7F6;
+	border:1px solid transparent;
+}
+.forgetpass_con{
+	width: 1000px;
+	height: 442px;
+	background: #fff;
+	border:1px solid #EDEEED;
+	margin: 60px auto;
+}
+
+/*** 1、验证身份 ***/ 
+
+.forgetpass_con_top{
+	width: 660px;
+	background: #4EB89E;
+	margin: 50px auto;
+
+}
+
+.forgetpass_con_top li{
+	float: left;
+	width: 220px;
+	height:30px;
+	text-align: center;
+	line-height: 30px;
+	color:#989998;
+	font-size: 16px;
+	background: #EDEEED;
+	vertical-align: middle;
+	position: relative;
+
+}
+.forgetpass_con_top li:nth-child(1){
+	color:#fff;
+	background: #4EB89E;
+}
+.forgetpass_con_top_a img,.forgetpass_con_top_b img{
+	position: absolute;
+	right: -10px;
+	z-index: 10;
+}
+/**** 2、form框 ****/  
+input{
+	border:none;
+	outline:none;
+	float: left;
+	color:#747574;
+	font-size: 16px;
+	height: 43px;
+	line-height: 43px;
+	padding-left:10px;
+	box-shadow: border-box;
+}
+.forget_phone,.forget_photo,.forget_info{
+	width: 400px;
+	height: 45px;
+	border:1px solid #DCDDDC;
+	margin:0 auto 20px;
+
+}
+.forget_phone div,.forget_photo div,.forget_info div{
+	float: left;
+}
+
+.forget_phone div:nth-child(1),.forget_photo>div:nth-child(1),.forget_info div:nth-child(1){
+	width: 110px;
+	height: 45px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 45px;
+	color:#434443;
+	border-right: 1px solid #DCDDDC;
+}
+.forget_phone_input{
+	width: 250px;
+}
+
+.forget_photo_input{
+	height: 45px;
+	width: 288px;
+}
+.forget_photo_input_a{
+	float: right;
+	height: 45px;
+	line-height: 45px;
+	margin-left: 180px;
+	color:#DCDDDB;
+}
+.forget_photo_input_code{
+	float: right;
+	width: 93px;
+	height: 30px;
+	margin-left: 5px;
+	margin-top:8px;
+	position: relative;
+}
+.varify-input-code{
+	position: absolute;
+	top:-8px;
+	left: -186px;
+}
+.verify-change-code{
+	display: none;
+}
+
+
+
+
+.forget_info_input_a{
+	height: 45px;
+	line-height: 45px;
+	color:#DCDDDC;
+	padding:0 5px;
+}
+.forget_info_input_code{
+	height: 30px;
+	width: 90px;
+	border-top:1px solid transparent;
+	margin-top:5px;
+}
+
+
+
+
+.forget_info_input_code{
+	line-height: 30px;
+	text-align: center;
+	color:#656665;
+}
+
+
+
+
+
+/*** 下一步 ****/ 
+.forget_next{
+	width: 400px;
+	height: 45px;
+	background: #F77705;
+	color:#fff;
+	margin:30px auto;
+	font-size: 20px;
+	line-height: 45px;
+	text-align: center;
+}
+
+
+ /*** 尾部 ***/ 
+.forget_footer{
+	height: 128px;
+	width: 1240px;
+	margin:0 auto;
+}
+
+
+.footer_list{
+	overflow: hidden;
+	height: 60px;
+	margin:0 auto;
+	width: 600px;
+	box-sizing: border-box;
+	padding-top:30px;
+}
+.footer_list li{
+	float: left;
+}
+.footer_list li a{
+	font-size: 16px;
+	padding:0 16px;
+	color:#B1B2B9;
+	text-decoration: none;
+	border-right: 1px solid #B1B2B9;
+}
+.footer_list li a:last-child{
+	border-right: 0;
+}
+.footer_list li a:hover{
+	color:#656665;
+}
+
+.footer_copyright{
+	font-size: 14px;
+	width: 900px;
+	margin:0 auto;
+	color:#B1B2B9;
+	text-align: center;
+}
+.footer_copyright div{
+	padding:10px 0;
+}
+.footer_copyright span{
+	padding-left: 12px;
+}
+.footer_copyright span a{
+	color:#B1B2B9;
+	text-decoration: none;
+}
+.footer_copyright span a:hover{
+	color:#656665;
+}
+
+
+
+

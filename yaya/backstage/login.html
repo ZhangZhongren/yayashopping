@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>login</title>
+	<style>
+		html,body,.bg{
+			width: 100%;
+			height: 100%;
+			background: #fff;
+		}
+		.login{
+			height: 200px;
+			width: 300px;
+			background: #368;
+			margin: 30px auto;
+			padding: 50px;
+		}
+		.name{
+			margin-top: 10px;
+			margin-bottom: 50px;
+		}
+		input{
+			width: 200px;
+			height: 30px;
+			outline: none;
+		}
+		.logo{
+			padding-top: 100px;
+			width: 180px;
+			height: 80px;
+			margin:  auto;
+			background: url("download.png") 0 100px no-repeat;
+		}
+		lable{
+			color: #fff;
+		}
+		.enter{
+			margin-top: 40px;
+		}
+		.enter span{
+			display: block;
+			width: 150px;
+			height: 40px;
+			text-align: center;
+			line-height: 40px;
+			color: #fff;
+			background: #37B89E;
+			margin: auto;
+			cursor: pointer;
+			user-select: none;
+			border-radius: 4px;
+		}
+	</style>
+</head>
+<body>
+	<div class="bg">
+		<div class="logo">
+		</div>
+		<div class="login">
+			<div class="name">
+				<lable>用户名:</lable>&nbsp;&nbsp;&nbsp;<input type="text" name="username">		
+			</div>
+			<div class="password">
+				<lable>密&nbsp;&nbsp;码:</lable>&nbsp;&nbsp;&nbsp;&nbsp;<input type="password" name="password">
+			</div>
+			<div class="enter">
+				<span>登录</span>
+			</div>
+		</div>
+	</div>
+	<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+</body>
+</html>

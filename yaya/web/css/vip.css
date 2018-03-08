@@ -1,0 +1,236 @@
+.header{
+	width:1240px;
+	margin:100px auto 30px; 
+}
+.logo{
+	display: block;
+	width: 166px;
+	height: 74px;
+	cursor: pointer;
+	background: url("../image/vip/2b6e3bbe-5e50-41f4-acc8-c97142306bfd.png") 0 0 / 166px 74px;
+}
+h1{
+	font-size: 25px;
+	margin-left: 10px;
+	line-height: 74px;
+}
+.menu a{
+	display: block;
+	line-height: 74px;
+	font-size: 19px;
+	color: #333;
+	padding: 0 20px;
+	text-decoration: none;
+	cursor: pointer;
+}
+.menu a:hover{
+	color: #3DC9AE;
+}
+.user_center{
+	width: 100%;
+	height: 450px;
+	background: url("../image/vip/download.jpg");
+}
+.user_main{
+	width: 1240px;
+	margin:0 auto;
+	height: 450px;
+}
+.user_msg{
+	width: 305px;
+	height: 400px;
+	margin-top: 50px;
+}
+.user_head{
+	width: 305px;
+	height: 224px;
+	border-top: 1px solid  #333333;
+	background-color: #333333;
+}
+.portrait{
+	width: 100px;
+    height: 110px;
+    overflow: hidden;
+    margin: 25px auto  10px;
+    background: #333333
+}
+.portrait a{
+	display: block;
+	width: 100px;
+	height: 100px;
+	background-color: #fff;
+	border-radius: 50%;
+}
+.user_head h2{
+	text-align: center;
+	color: #fff;
+	font-size: 19px;
+}
+.line{
+	margin: 10px 30px;
+    height: 5px;
+    line-height: 0;
+    background: #000;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.growth{
+	text-align: center;
+	line-height: 20px;
+	font-size: 16px;
+	color: #CCCCC7;
+}
+.growth span.gro{
+	color: #3DC9AE;
+}
+.club_money{
+	overflow: hidden;
+    padding: 15px 0;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+.club_money a{
+	width: 33.33%;
+    display: block;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: #333;
+}
+.club_money a:hover{
+	color: #3DC9AE;
+}
+.club_money a span.num{
+	display: block;
+	text-align: center;
+	font-size: 20px;
+	color: #3DC9AE;
+}
+.question{
+	padding: 15px 10px;
+	background-color: #fff;
+}
+.question a{
+	text-decoration: none;
+	color: #555555;
+	line-height: 25px;
+}
+
+/*会员中心*/
+.vip_center{
+	width: 1240px;
+	padding: 30px;
+	margin : auto;
+}
+.vip_center  h2{
+	font-size: 35px;
+	text-align: center;
+}
+.vip_center span.baseline{
+	display: block;
+	text-align: center;
+	font-size: 35px;
+}
+.vip_center .scrol{
+
+}
+.vip_center .scrol ul li{
+	width: 228px;
+	margin-right: 25px;
+}
+.vip_center .scrol ul li:last-of-type{
+	margin-right: 0;
+}
+.vip_center .scrol a{
+	display: block;
+	width: 228px;
+	height: 120px;
+}
+.vip_center .scrol a img{
+	width: 228px;
+	height: 120px;
+}
+.power{
+	padding: 10px;
+	border: 1px solid #CCCCC7;
+}
+.power h3{
+	text-align: center;
+	padding:  10px 0;
+	font-size: 22px;
+}
+.power span{
+	display: block;
+	text-align: center;
+	line-height: 1.4;
+}
+
+/*商品兑换*/
+.get_pro{
+	width: 1240px;
+	padding: 30px;
+	margin : auto;
+}
+.get_pro  h2{
+	font-size: 35px;
+	text-align: center;
+}
+.get_pro span.baseline{
+	display: block;
+	text-align: center;
+	font-size: 35px;
+}
+.get_pro ul li{
+	width: 220px;
+    border: 1px solid #e7e7e7;
+    margin: 25px 0 0 25px;
+    float: left;
+    position: relative;
+    transition: .2s linear;
+}
+.get_pro ul li:hover{
+	box-shadow: 0 3px 5px 1px #CCCCC7;
+}
+.get_pro ul li a{
+	display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #555555
+}
+.get_pro ul li a img{
+	width: 196px;
+	height: 196px;
+}
+.get_pro ul li a strong{
+	display: block;
+	padding: 5px 0;
+	margin-top: 15px;
+}
+.get_pro ul li a s{
+	display: block;
+	padding: 8px 0;
+}
+.get_pro ul li a span{
+	color: #FF892A;
+ }
+ .get_pro ul li a i{
+ 	font-size: 12px;
+ }
+.get_pro .more{
+	display: block;
+	color: #333;
+	width: 100px;
+	text-decoration: none;
+	text-align: center;
+	background-color: #fff;
+	border:2px solid #333;
+	line-height: 40px;
+	padding: 0 10px;
+	margin:100px auto;
+	cursor: pointer;
+}
+.get_pro .more:hover{
+	background-color: #333;
+	color: #fff;
+}

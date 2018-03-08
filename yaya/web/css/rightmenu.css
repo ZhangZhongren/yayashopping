@@ -1,0 +1,110 @@
+.rightmenu{
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 40px;
+	height: 100%;
+	background-color: #333333;
+	z-index: 100000;
+}
+ul.rightmenu_ul{
+	margin-top: 350px;
+	position: relative;
+}
+li.r_vip{
+	position: relative;
+	margin-top: 20px;
+}
+li.r_vip:hover .r_vip_move{
+	transform: translateX(-140px);
+}
+.r_vip .huiyan_a{
+	display: block;
+	color: #717171;
+	width: 40px;
+	height: 40px;
+	font-size: 30px;
+	text-align: center;
+	line-height: 40px;
+	transition: 0.3s linear;
+	cursor: pointer;
+}
+.ani{
+	overflow: hidden;
+}
+.r_vip :hover .huiyan_a{
+	transform: translateX(-40px);
+}
+.r_vip .r_vip_move{
+	position: absolute;
+	right: -140px;
+	top: 0;
+	width: 140px;
+	height: 40px;
+	transition: 0.3s linear;
+	cursor: pointer;
+}
+.r_vip .r_vip_move .r{
+	display: block;
+	width: 40px;
+	height: 40px;
+	font-size: 30px;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	background: #37B89E;
+}
+.r_vip .r_vip_move .menu_tip{
+	width: 100px;
+	height: 40px;
+	background: #37B89E;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+}
+.menu_phone{
+	width: 148px;
+	height: 38px;
+	border: 1px solid #37B89E;
+}
+.call{
+	width: 300px;
+	position: absolute;
+	right: -300px;
+	top: 0;;
+	height: 40px;
+	transition: 0.5s linear;
+	cursor: pointer;
+}
+.call .menu_tip{
+	width: 100px;
+	height: 40px;
+	background: #37B89E;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+}
+.call  .r{
+	display: block;
+	width: 40px;
+	height: 40px;
+	font-size: 30px;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	background: #37B89E;
+}
+.leave_msg{
+	margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+

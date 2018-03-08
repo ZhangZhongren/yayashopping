@@ -1,0 +1,251 @@
+.logo_header{
+	width: 1240px;
+	height: 112px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.logo_header div{
+	float: left;
+	line-height: 112px;
+}
+.logo_header div:last-child{
+	font-size: 25px;
+	margin-left: 23px;
+	font-weight: 400;
+}
+
+/* logo主页面 */ 
+.logo_con{
+	width: 100%;
+	min-width: 1000px;
+	height: 550px;
+	background:red url("http://img.yaya.cn/1e9bc2bd-468c-400e-9e14-e1e8ef22c64c.jpg")  top center no-repeat;
+	overflow: hidden;
+}
+
+.logoImgUrl{
+	display: block;
+	width: 60%;
+	min-width: 66px;
+	height: 550px;
+	float: left;
+	margin-left:5%;
+}
+
+/* 登录、注册框 */ 
+.logo_con_border{
+	width: 340px;
+	height: 394px;
+	background: #fff;
+	float: left;
+	margin:78px auto 0;
+	background:#F9FAF9;
+}
+
+.logo_con_border_top{
+	width: 340px;
+	overflow: hidden;
+}
+.logo_con_border_top_a{
+	height: 55px;
+	font-size: 16px;
+	color:#323332;
+	padding-left: 50px;
+	line-height: 55px;
+	cursor: pointer;
+	background: #fff;
+}
+.logo_con_border_top_a:hover{
+	color:#F77705;
+}
+
+/***** 登录注册框 *******/ 
+.logo_con_border_center{
+	width: 340px;
+	height: 280px;
+	border-top: 1px solid #EDEEED;
+	border-bottom: 1px solid #EDEEED;
+	background: #fff;
+}
+.logo_center_con{
+	position: relative;
+}
+
+.logo_center_con_name,.logo_center_con_passworld{
+	border: 1px solid #DCDDDC;
+	overflow: hidden;
+	width: 297px;
+	height: 40px;
+	margin:32px auto 0;
+
+}
+.logo_center_con_name div,.logo_center_con_passworld div{
+	float: left;
+	width: 40px;
+	height: 40px;
+	border-right: 1px solid #DCDDDC;
+	background: #F9FAF9;
+}
+.logo_name_img,.logo_passworld_img{
+	line-height: 40px;
+	margin-left:5px;
+	color: #989998;
+}
+.logo_name_img{
+	font-size: 25px;
+}
+.logo_passworld_img{
+	font-size: 18px;
+	margin-left: 9px;
+}
+input{
+	width: 247px;
+	height: 40px;
+	padding-left: 8px;
+	float: left;
+	outline:none;
+	border:none;
+	font-size: 16px;
+}
+/** 忘记密码 **/ 
+ .logo_con_border_forget{
+ 	font-size: 14px;
+ 	overflow: hidden;
+ }
+ .logo_con_border_forget a{
+ 	text-decoration: none;
+ 	color:#6F6B6A;
+ 	float: right;
+ 	margin-right: 20px;
+ 	margin-top:30px;
+ }
+/****  登录按钮 *****/ 
+.logo_center_btn{
+	margin:20px 0 0 20px;
+	width: 300px;
+	height:44px;
+	line-height: 44px;
+	text-align: center;
+	background:#F77705;
+	color:#fff;
+	font-size: 20px;
+	border-radius: 0;
+	cursor: pointer;
+}
+
+.logo_center_btn:hover{
+	background: #F78802;
+}
+
+/* 登录成功 */ 
+.logo_success{
+	position: absolute;
+	width: 300px;
+	height: 20px;
+	border-radius: 3px;
+	background: #59B99F;
+	top:150px;left:20px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 20px;
+	color:#fff;
+}
+.logo_success span{
+	display: inline-block;
+	border:8px solid red;
+	border-color:#59B99F transparent transparent transparent;
+	position: absolute;
+	top:20px;
+	right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** 免费注册 **/ 
+.logo_con_border_bottom{
+	float: right;
+	margin-right: 25px;
+	font-size: 18px;
+	color:#656665;
+	padding-top: 16px;
+}
+.logo_con_border_bottom span a{
+	text-decoration: none;
+	font-size: 16px;
+	color:#656665;
+}
+
+
+ /*** 尾部 ***/ 
+.logo_footer{
+	height: 128px;
+	width: 1240px;
+	margin:0 auto;
+}
+
+
+.footer_list{
+	overflow: hidden;
+	height: 60px;
+	margin:0 auto;
+	width: 600px;
+	box-sizing: border-box;
+	padding-top:30px;
+}
+.footer_list li{
+	float: left;
+}
+.footer_list li a{
+	font-size: 16px;
+	padding:0 16px;
+	color:#B1B2B9;
+	text-decoration: none;
+	border-right: 1px solid #B1B2B9;
+}
+.footer_list li a:last-child{
+	border-right: 0;
+}
+.footer_list li a:hover{
+	color:#656665;
+}
+
+.footer_copyright{
+	font-size: 14px;
+	width: 900px;
+	margin:0 auto;
+	color:#B1B2B9;
+	text-align: center;
+}
+.footer_copyright div{
+	padding:10px 0;
+}
+.footer_copyright span{
+	padding-left: 12px;
+}
+.footer_copyright span a{
+	color:#B1B2B9;
+	text-decoration: none;
+}
+.footer_copyright span a:hover{
+	color:#656665;
+}
+
+
+
+

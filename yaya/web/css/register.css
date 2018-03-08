@@ -1,0 +1,303 @@
+.logo_box{
+	width: 100%;
+	background:#FEFFFE;
+}
+.logo_header{
+	width: 1240px;
+	height: 125px;
+	margin:0 auto;
+}
+.logo_header div{
+	float: left;
+	line-height: 125px;
+}
+.logo_header div:nth-child(1){
+	margin-top:20px;
+}
+.logo_header div:last-child{
+	float: right;
+	color:#656665;
+	font-size: 16px;
+}
+.logo_header div:nth-child(2){
+	font-size: 30px;
+	margin-left: 23px;
+	font-weight: 400;
+}
+.logo_jump a{
+	text-decoration: none;
+	color:#F77705;
+}
+
+/********* 注册内容区  ***********/ 
+.register_con{
+	width: 100%;
+	height: 655px;
+	background: #F6F7F6;
+	border:1px solid transparent;
+}
+.register_con_body{
+	width: 1000px;
+	height: 530px;
+	border:1px solid #EDEEED;
+	margin: 60px auto;
+	background: #fff;
+}
+
+
+
+/************  注册成功 **********************/ 
+form{
+	position: relative;
+}
+.register_success{
+	position: absolute;
+	width: 400px;
+	height: 30px;
+	border-radius: 3px;
+	background: #59B99F;
+	font-size: 12px;
+	text-align: center;
+	line-height: 30px;
+	color:#fff;
+	bottom:-45px;
+	left:300px;
+}
+.register_success span{
+	display: inline-block;
+	border:8px solid red;
+	border-color:#59B99F transparent transparent transparent;
+	position: absolute;
+	top:30px;
+	right: 20px;
+}
+
+
+
+
+
+
+
+
+
+input{
+	border:none;
+	outline:none;
+	width: 207px;
+	height: 46px;
+	font-size: 16px;
+	padding-left: 8px;
+	color:#747574;
+	float: left;
+}
+
+/*** 手机验证 ***/  
+/*********  图片验证码！！！ .register_photo ************/ 
+.register_phone{
+	margin: 50px auto 20px;
+	width: 402px;
+	height: 48px;
+	border:1px solid #DCDDDC;
+	position: relative;
+}
+.register_phone_put{
+	height: 30px;
+	margin-top:10px;
+}
+
+.register_photo,.register_info,.register_passworld,.register_okpassworld{
+	width: 402px;
+	height: 49px;
+	border:1px solid #DCDDDC;
+	margin:0 auto 20px;
+	position: relative;
+}
+
+.register_phone div,.register_photo div,.register_info div,.register_passworld div,.register_okpassworld div{
+	float: left;
+}
+.register_phone_img,.register_photo_img,.register_info_img,.register_passworld_img,.register_okpassworld_img{
+	width: 112px;
+	height: 48px;
+	text-align: center;
+	line-height: 48px;
+	font-size: 16px;
+	color:#434443;
+	border-right: 1px solid #DCDDDC;
+	background: #F6F7F6;
+}
+
+.register_phone_img,.register_photo_img{
+	height: 47px;
+	margin-top:1px;
+}
+
+.register_photo_put{
+	position: relative;
+	height: 30px;
+}
+.register_photo_put_a{
+	position: absolute;
+	top:0;
+	left:150px;
+}
+#mpanel2{
+	width: 93px;
+	height: 30px;
+	margin-left: 170px;
+	margin-top:10px;
+	position: relative;
+}
+.varify-input-code{
+	width: 130px;
+	height: 30px;
+	position: absolute;
+	top:0;
+	left: -170px;
+}
+.verify-change-code{
+	color:transparent;
+}
+
+
+/** input框内容不正确，的弹框 **/ 
+/** 右边弹框 **/ 
+.phone_alter_right,.register_alter_right,.passworld_alter_right,.okpassworld_alter_right{
+	position: absolute;
+	font-size: 12px;
+	top:10px;
+	left: 405px;
+}
+/** 左边弹框 **/ 
+.phone_alter_left,.register_alter_left,.passworld_alter_left,.okpassworld_alter_left{
+	position: absolute;
+	font-size: 12px;
+	top:10px;
+	left: -205px;
+}
+.phone_alter_a,.register_alter_a,.register_passworld_a,.register_okpassworld_a{
+	width: 200px;
+	height: 23px;
+	background: #FABDC1;
+	float: left;
+	line-height: 23px;
+	padding-left: 30px;
+	box-sizing: border-box;
+	color:red;
+}
+.phone_alter_b,.register_alter_b,.register_passworld_b,.register_okpassworld_b{
+	float: left;
+	border: 10px solid pink;
+	border-color: transparent transparent #FABDC1 transparent; 
+	margin:-5px -10px;
+	margin:-5px -10px;
+}
+
+.register_info_put{
+	width: 168px;
+	float: left;
+}
+.register_info_put_a,.register_photo_put_a{
+	color:#DCDDDC;
+	line-height: 45px;
+}
+
+.register_info_put_b{
+	line-height: 45px;
+	color:#656665;
+	margin-left: 10px;
+}
+
+/** 协议 **/ 
+.register_con_pact{
+	border:1px solid transparent;
+	width: 400px;
+	margin:20px auto;
+	color:#74766F;
+}
+.register_con_pact a{
+	text-decoration: none;
+	color:#F47607;
+}
+.register_con_success{
+	width: 400px;
+	height: 45px;
+	background: #F47607;
+	margin:0 auto;
+	text-align: center;
+	line-height: 45px;
+	font-size: 20px;
+	color:#fff;
+}
+
+ /********* 尾部 **********/ 
+.register_footer{
+	height: 128px;
+	width: 1240px;
+	margin:0 auto;
+}
+.footer_list{
+	overflow: hidden;
+	height: 60px;
+	margin:0 auto;
+	width: 600px;
+	box-sizing: border-box;
+	padding-top:30px;
+}
+.footer_list li{
+	float: left;
+}
+.footer_list li a{
+	font-size: 16px;
+	padding:0 16px;
+	color:#B1B2B9;
+	text-decoration: none;
+	border-right: 1px solid #B1B2B9;
+}
+.footer_list li a:last-child{
+	border-right: 0;
+}
+.footer_list li a:hover{
+	color:#656665;
+}
+
+.footer_copyright{
+	font-size: 14px;
+	width: 900px;
+	margin:0 auto;
+	color:#B1B2B9;
+	text-align: center;
+}
+.footer_copyright div{
+	padding:10px 0;
+}
+.footer_copyright span{
+	padding-left: 12px;
+}
+.footer_copyright span a{
+	color:#B1B2B9;
+	text-decoration: none;
+}
+.footer_copyright span a:hover{
+	color:#656665;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

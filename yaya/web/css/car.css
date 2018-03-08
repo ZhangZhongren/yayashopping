@@ -1,0 +1,455 @@
+.car_main{
+	width: 1240px;
+	margin: 100px auto;
+}
+.car_main div.car_title{
+	border: 1px solid #E4E4E4;
+	border-top: 3px solid #E4E4E4;
+	height: 30px;
+	background-color: #FAFAFA;
+	color: #666666;
+	padding: 3px 0;
+}
+.one{
+	width: 50px;
+}
+.two{
+	width: 450px;
+}
+.three{
+	width: 150px;
+}
+.four{
+	width: 100px;
+}
+.five{
+	width: 110px;
+}
+.six{
+	width: 170px;
+}
+.seven{
+	width: 110px;
+}
+.eight{
+	width: 90px;
+}
+.car_main .car_title div.pro_info{
+	line-height: 30px;
+	height: 30px;
+}
+.car_main .pro_item{
+	border: 1px solid #e4e4e4;
+    padding: 20px 0;
+    color: #666;
+    margin-top: 10px;
+    transition: all 2s linera;
+}
+.car_main .pro_item:hover{
+	box-shadow: 0 0 3px 1px #e4e4e4;
+}
+div.to_select{
+	border:1px solid #CCCCCC;
+	width: 14px;
+	height: 14px;
+	margin:0 auto;
+	text-align: center;
+}
+.on{
+	width: 14px;
+	height: 14px;
+	margin:0 auto;
+	text-align: center;
+	background-image: url(../image/car/duihao.jpg);
+	background-repret: no-repeat; 
+}
+.car_main .pro_item  .pro_img img{
+	display: block;
+	width: 80px;
+	height: 80px;
+	float: left;
+}
+.car_main .pro_item .pro_img .pro_img_msg{
+	width: 340px;
+    padding-left: 15px; 
+}
+.car_main .pro_item .pro_img .pro_img_msg a.pro_name{
+	text-decoration: none;
+	font-size: 14px;
+	color: #333;
+}
+.car_main .pro_item .pro_img .pro_img_msg a.pro_name:hover{
+	color: #FF7828;
+}
+.car_main .pro_item .pro_img .pro_img_msg span.pro_promise{
+	display: inline-block;
+	border: 1px solid #e7e7e7;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 15px;
+    cursor: pointer;
+    margin-top: 15px;
+    color: #666666;
+    font-weight: 700;
+}
+.car_main .pro_item .specifications{
+
+}
+.car_main .pro_item .specifications p.specifications_p{
+	height: 16px;
+	font-size: 14px;
+	line-height: 16px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.car_main .pro_item .unit{
+	font-size: 14px;
+}
+.car_main .pro_item div.num{
+
+}
+.car_main .pro_item .num .box{
+	border: 1px solid #e7e7e7;
+}
+.car_main .pro_item .num .box span.a{
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 20px;
+	cursor: pointer;
+}
+.car_main .pro_item .num .box input.pro_number{
+	width: 40px;
+	height: 28px;
+	border: 0;
+	border-left: 1px solid #e7e7e7;
+	border-right: 1px solid #e7e7e7;
+	outline: none;
+	text-align: center;
+	font-size: 16px;
+	margin-top: 0;
+}
+.car_main .pro_item .preferential{
+
+}
+.car_main .pro_item .preferential p.preferential_p{
+	width: 170px;
+	height: 16px;
+	font-size: 14px;
+	line-height: 16px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.car_main .pro_item .subtotal{
+
+}
+.car_main .pro_item .subtotal span.subtotal_sty{
+	color: #FF7828;
+	font-size: 16px;
+	font-weight: 700;
+}
+.car_main .pro_item .subtotal i.subtotal_p{
+
+}
+.car_main .pro_item .ctrl a.collection{
+	display: block;
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 16px;
+	color: #333;
+}
+.car_main .pro_item .ctrl a.del{
+	display: block;
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 16px;
+	color: #333;
+	margin-top: 5px;
+}
+
+.car_main .total_info{
+	border:1px solid #e7e7e7;
+	margin-top: 20px;
+}
+.car_main .total_info .one .tt{
+	margin-top: 21px;
+}
+.car_main .total_info .select_all{
+	height: 60px;
+	padding: 0 15px;
+	line-height: 60px;
+	cursor: pointer;
+	font-size: 14px;
+	color: #666666;
+}
+.car_main .total_info .del_sel{
+	height: 60px;
+	padding: 0 5px;
+	line-height: 60px;
+	cursor: pointer;
+	font-size: 14px;
+	color: #666666;
+}
+.car_main .total_info .to_collection{
+	height: 60px;
+	padding: 0 5px;
+	line-height: 60px;
+	cursor: pointer;
+	font-size: 14px;
+	color: #666666;
+}
+.car_main .total_info .total_info_r{
+	height: 60px;
+}
+.car_main .total_info .total_info_r span.selected{
+	display: block;
+	line-height: 60px;
+	font-size: 14px;
+	color: #666666;
+}
+.car_main .total_info .total_info_r .selected i.selected_num{
+	color: #FF7828;
+	font-size: 18px;
+}
+.car_main .total_info .total_info_r span.pro_allpir{
+	display:block;
+	line-height: 60px;
+	font-size: 14px;
+	color: #666666;
+}
+.car_main .total_info .total_info_r .pro_allpir em{
+	color: #FF7828;
+}
+.car_main .total_info .total_info_r .pro_allpir i.all_price{
+	color: #FF7828;
+	font-size: 20px;
+}
+.car_main .total_info .total_info_r .line{
+	display: block;
+	height: 60px;
+	line-height: 60px;
+	padding: 0 10px;
+} 
+.car_main .total_info .total_info_r span.preferential_youhui{
+	display: block;
+	padding-left: 10px;
+	line-height: 60px;
+	font-size: 14px;
+	color: #666666;
+}
+.car_main .total_info .total_info_r .preferential_youhui em{
+	font-size: 14px;
+}
+.car_main .total_info .total_info_r .preferential_youhui i{
+	color: #FF7828;
+	font-size: 20px;
+	font-weight: 700;
+}
+.car_main .total_info .total_info_r span.total{
+	display: block;
+	height: 60px;
+	margin-left: 10px;
+	line-height: 60px;
+}
+.car_main .total_info .total_info_r .total em{
+	font-size: 14px;
+}
+.car_main .total_info .total_info_r .total i{
+	font-size: 20px;
+	color: #FF7828;
+	font-weight: 700;
+}
+/*             */
+.car_main .total_info .total_info_r .over{
+	display: block;
+	width: 120px;
+	height: 60px;
+	background-color: #FF7828;
+	text-decoration: none;
+	margin-left: 20px;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	line-height: 60px;
+}
+
+
+
+
+
+/* 如果购物车是空的  提示取购物的样式*/
+.shooptips{
+	width: 500px;
+	height: 388px;
+	margin: 0 auto;
+	display: none;
+}
+.shooptips img{
+	width: 241px;
+	height: 184px;
+	margin-top: 128px;
+}
+.shooptips_r{
+	margin-top: 128px;
+}
+.shooptips_r p {
+	margin-top: 10px;
+	font-size: 18px;
+	color: #666666;
+}
+.shooptips_r .shooptips_span{
+	display: block;
+	width: 120px;
+	line-height: 40px;
+	color: #fff;
+	background: #FF7828;
+	font-size: 16px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 3px;
+	margin-top: 50px;
+	cursor: pointer;
+}
+/*轮播图的样式*/
+.guss{
+	width: 1240px;
+	margin: 100px auto;
+	border: 1px solid #E4E4E4;
+}
+.guss h2{
+	text-indent: 20px;
+	font-size: 16px;
+	color: #444444;
+	line-height: 40px;
+	background: #F7F7F7;
+	border-bottom: 1px solid #E4E4E4;
+}
+.scroll_rl{
+	height: 400px;
+}
+.container { width: 1240px; height: 400px;  overflow: hidden; position: relative;}
+.list { width: 6200px; height: 400px; position: absolute; z-index: 1;}
+
+.list .ring{
+	width: 1240px;
+	height: 400px;
+}
+.list .ring .pro_scroll{
+	width: 208px;
+	padding: 0 20px;
+	height: 500px;
+}
+.list .ring .pro_scroll a{
+	display: block;
+	width: 200px;
+	height: 200px;
+	margin: 20px auto 10px;
+}
+.list .ring .pro_scroll a img{
+	width: 200px;
+	height: 200px;
+}
+.list .ring p.pro_title{
+	height: 30px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 14px;
+	margin : 0 0 0 20px;
+
+}
+
+.list .ring p.pro_title:hover{
+	color: #FF7828;
+}
+.list .ring p.product_tips{
+	margin-top: 10px;
+}
+.list .ring .product_tips  span.product_tips_val{
+	color: #FF7828;
+	font-size: 20px;
+}
+.list .ring .product_tips  span.shopped{
+	font-size: 14px;
+	color: #B3B3B3;
+}
+.join_the_car{
+	display: block;
+	width: 200px;
+	height: 40px;
+	margin-top: 10px;
+	border: 1px dashed #B3B3B3;
+	text-align: center;
+	line-height: 40px;
+	color: #666666;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.join_the_car:hover{
+	color: #fff;
+	background: #FF7828;
+}
+.prev { 
+	position: absolute;
+	top: 200px;
+	left: 20px; 
+	text-decoration: none;
+	font-size: 30px;
+	width: 38px;
+	height: 60px;
+	overflow: hidden;
+	z-index: 2;
+	display: none;
+}
+.prev  ul{
+	width: 80px;
+	transition: 0.5s;
+}
+.prev  ul li{
+	padding: 0 10px;
+	cursor: pointer;
+	background: #E4E4E4;
+	height: 60px;
+	line-height: 60px;
+}
+.prev:hover .prev ul{
+	transform: translateX(-40px);
+}
+.next{ 
+	position: absolute;
+	top: 200px;
+	right: 20px;
+	width: 40px;
+	text-decoration: none;
+	font-size: 30px;
+	overflow: hidden;
+	z-index: 2;
+	display: none;
+}
+.next ul{
+	width: 80px;
+	transition: 0.5s;
+}
+.next:hover .next ul{
+	transform: translateX(40px);
+}
+.next ul li{
+	cursor: pointer;
+	padding: 0 10px;
+	background: #E4E4E4;
+	height: 60px;
+	line-height: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+

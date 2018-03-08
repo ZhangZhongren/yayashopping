@@ -1,0 +1,318 @@
+.order_form_index_Payment_ds1{
+	overflow: hidden;
+	width: 100%;
+	margin: 0 auto;
+}
+.order_form_index_Payment_d1{
+	width: 1000px;
+	/*height: 664px;*/
+	/*border: 1px solid red;*/
+	margin: 50px auto 30px;
+	border-bottom: 1px solid #ccc;
+	overflow: hidden;
+}
+.order_form_index_Payment_d2{
+	border-bottom: 1px solid #ccc;
+	width: 100%;
+	height: 85px;
+	overflow: hidden;
+}
+.order_form_index_Payment_head{
+	width: 285px;
+	height: 64px;
+	/*border: 1px solid red;*/
+	overflow: hidden;
+}
+.order_form_index_Payment_head a{
+	display: block;
+	width: 145px;
+	height: 64px;
+}
+.order_form_index_Payment_head img{
+	width: 100%;
+}
+.order_form_index_Payment_head h2{
+	width: 120px;
+	height: 64px;
+	line-height: 64px;
+	font-size: 20px;
+	padding-left: 14px;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+.order_form_index_Payment_d1 span{
+	color: #FF8000;
+}
+.order_form_index_Payment_ps1{
+	width: 370px;
+}
+.order_form_index_Payment_d1 .order_form_index_Payment_ps1{
+	height: 64px;
+	width: 337px;
+	font-size: 14px;
+	line-height: 64px;
+	margin-left: 20px;
+}
+.order_form_index_Payment_ds2{
+	width: 358px;
+	height: 64px;
+	float: left;
+	/*line-height: 64px;*/
+}
+.order_form_index_Payment_as1{
+	display: block;
+	width: 90px;
+	float: left;
+	text-align: center;
+	padding-right: 25px;
+	padding-left: 25px;
+	border-right: 1px solid #ccc;
+	margin-top: 23px;
+	font-size: 14px;
+}
+.order_form_index_Payment_as2{
+	display: block;
+	width: 56px;
+	float: left;
+	margin-top: 23px;
+	padding-left: 25px;
+	font-size: 14px;
+	padding-right: 25px;
+	border-right: 1px solid #ccc;
+}
+.order_form_index_Payment_as3{
+	display: block;
+	width: 56px;
+	float: left;
+	font-size: 14px;
+	margin-top: 23px;
+	padding-left: 25px;
+	padding-right: 25px;
+	border-right: 1px solid #ccc;
+}
+.order_form_index_Payment_d3{
+	width: 100%;
+	height: 40px;
+	float: left;
+	margin-top: 40px;
+}
+.order_form_index_Payment_d4{
+	width: 1000px;
+	height: 32px;
+	border: 1px solid #ccc;
+	overflow: hidden;
+	background-color: #F5F5F5;
+}
+.order_form_index_Payment_d4 div{
+	float: left;
+}
+.order_form_index_Payment_d4_ds1{
+	width: 398px;
+	height: 32px;
+	text-align: center;
+	line-height: 32px;
+}
+.order_form_index_Payment_d4_ds2{
+	width: 600px;
+	height: 32px;
+	text-align: center;
+	line-height: 32px;
+	border-right: 1px solid #ccc;
+}
+.order_form_index_Payment_d4_uls1{
+	width: 1000px;
+}
+.order_form_index_Payment_d4_lis1{
+	width: 998px;
+	border:.5px solid #CCC;
+	position: relative;
+	overflow: hidden;
+	border-top: 0;
+}
+.order_form_index_Payment_d4_dv1{
+	width: 281px;
+	height: 100%;
+	border:.5px solid #ccc;
+	text-align: center;
+	line-height: 100%;
+	/*margin-top: 1%;*/
+	/*top: 50%;*/
+	position: absolute;
+	border-left: 0;
+}
+.goods_add{
+	width: 200px;
+	height: 20px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin:auto;
+}
+
+
+.order_form_index_Payment_d4_dv2{
+	width: 717px;
+	border: .5px solid #ccc;
+	text-align: center;
+	margin-left: 282px;
+	border-left: 0;
+	border-bottom: .5px;
+}
+.order_form_index_Payment_d4_dv2 p{
+	margin:5px 0px 5px 0px;
+	font-size: 14px;
+}
+.order_form_index_Payment_d5{
+	width: 100%;
+	height: 40px;
+	float: left;
+	margin-top: 40px;
+}
+.order_form_index_Payment_as4{
+	display: block;
+	width: 113px;
+	height: 43px;
+	border:1px solid #F3610B;
+	float: left;
+	position: relative;
+	margin-right: 20px;
+}
+.order_form_index_Payment_as4 img{
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.order_form_index_Payment_as5{
+	display: block;
+	width: 128px;
+	height: 43px;
+	border:1px solid #ccc;
+	float: left;
+	position: relative;
+}
+.order_form_index_Payment_as5 img{
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.order_form_index_Payment_on{
+	width: 20px;
+	height: 20px;
+	background-image: url("../image/download.png");
+	background-size: 20px 20px;
+	background-repeat:no-repeat;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+.order_form_index_Payment_d6{
+	position: relative;
+}
+.order_form_index_Payment_as6{
+	display: block;
+	width: 120px;
+	height: 45px;
+	/*border:1px solid red;*/
+	/*margin-top: 150px;*/
+	text-align: center;
+	line-height: 45px;
+	border-radius: 5px;
+	background-color: #F3610B;
+	color: #fff;
+	float: left;
+}
+.order_form_index_Payment_as6:hover{
+	background-color: #FF8000;
+}
+.order_form_index_Payment_d7{
+	width: 100%;
+	float: left;
+	margin-top: 40px;
+	margin-bottom: 70px;
+}
+.order_form_index_Payment_d7 p{
+	line-height: 45px;
+	color: #FF8000;
+	float: left;
+	margin-left: 40px;
+}
+.order_form_index_Payment_d7 span{
+	font-size: 30px;
+}
+.order_form_index_Payment_d8{
+	width: 1000px;
+	/*border:1px solid red;*/
+	margin: 0 auto;
+	color: #878787;
+}
+.order_form_index_Payment_d8 a{
+	color: #878787;
+}
+.order_form_index_Payment_d8_ds1{
+	width: 588px;
+	margin: 0 auto;
+
+}
+.order_form_index_Payment_d8_ds1 a:hover{
+	color: #FF8000;
+}
+.order_index_Payment_d8_ase1{
+	padding-right: 15px;
+	margin-right: 15px;
+	border-right: 1px solid #CCC;
+	font-size: 15px;
+}
+.order_index_Payment_d8_ase2{
+	padding-right: 15px;
+	margin-right: 15px;
+	border-right: 1px solid #CCC;
+	font-size: 15px;
+}
+.order_index_Payment_d8_ase3{
+	padding-right: 15px;
+	margin-right: 15px;
+	border-right: 1px solid #CCC;
+	font-size: 15px;
+}
+.order_index_Payment_d8_ase4{
+	padding-right: 15px;
+	margin-right: 15px;
+	border-right: 1px solid #CCC;
+	font-size: 15px;
+}
+.order_index_Payment_d8_ase5{
+	padding-right: 15px;
+	margin-right: 15px;
+	border-right: 1px solid #CCC;
+	font-size: 15px;
+}
+.order_index_Payment_d8_ase6{
+	padding-right: 15px;
+	margin-right: 15px;
+	font-size: 15px;
+}
+.order_form_index_Payment_d8_pd1{
+	width: 915px;
+	font-size: 15px;
+	margin: 7px auto;
+
+}
+.order_form_index_Payment_d8_pd1 a:hover{
+	color:#FF8000;
+}
+.order_form_index_Payment_d8_pd1 a{
+	padding-left: 10px;
+}
+.order_form_index_Payment_d8_pd2{
+	width: 310px;
+	margin: 7px auto;
+}
+
+
+
+
+
+
+

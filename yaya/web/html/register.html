@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>注册</title>
+	<link rel="stylesheet" href="../css/register.css">
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../css/c_iconfont.css">
+	<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+</head>
+<body>
+	<div class="logo_box">
+		<div class="logo_header">
+			<div>
+				<h1>
+					<a href="###">
+						<img src="../image/logo.png" alt="丫丫网" width="180" height="82">
+					</a>
+				</h1>
+			</div>
+			<div>会员注册</div>
+			<div class="logo_jump">我已经注册，现在
+			<a href="login.html">【登录】</a></div>
+		</div>
+	</div>
+
+	<div class="register_con">
+		<div class="register_con_body">
+			<form action="">
+				<!--  手机验证 -->
+				<div class="register_phone clearfix">
+					<div class="register_phone_img">手机号</div>
+					<input type="text" class="register_phone_put" name="register_phone" placeholder="输入手机接收注册验证码">
+					
+					<!--  出错弹框 -->
+					<div class="phone_alter_right phone_alter clearfix" style="display: none;">
+						<div class="phone_alter_b"></div>
+						<div class="phone_alter_a">请输入有效手机号码！</div>
+					</div>
+
+					<div class="phone_alter_left phone_alter clearfix" style="display: none;">
+						<div class="phone_alter_a">请输入有效手机号码！</div>
+						<div class="phone_alter_b"></div>
+					</div>
+				</div>
+
+
+
+				<!--  图片验证 ！！！！！！-->
+				<div class="register_photo clearfix">
+					<div class="register_photo_img">图片验证码</div>
+
+					<!-- 图片验证input:  varify-input-code -->
+					<div class="register_photo_put">
+						<div class="register_photo_put_a">|</div>
+						<div class="register_photo_put_b" id="mpanel2"></div>
+					</div>
+					
+					<!--  出错弹框 -->
+					<div class="register_alter_right register_alter clearfix" style="display: none;">
+						<div class="register_alter_b"></div>
+						<div class="register_alter_a">图片验证码不正确！</div>
+					</div>
+
+					<div class="register_alter_left register_alter clearfix" style="display: none;">
+						<div class="register_alter_a">图片验证码不正确！</div>
+						<div class="register_alter_b"></div>
+					</div>
+
+				</div>
+
+				<!--  短信验证 -->
+				<div class="register_info clearfix">
+					<div class="register_info_img">短信验证码</div>
+					<input type="text" class="register_info_put" name="register_info" placeholder="请查收您的短信验证码">
+					<div class="register_info_put_a">|</div>
+					<div class="register_info_put_b">获取验证码</div>
+				</div>
+
+				<!--  设置密码 -->
+				<div class="register_passworld clearfix">
+					<div class="register_passworld_img">设置密码</div>
+					<input type="password" class="register_passworld_put" name="register_passworld" placeholder="建议至少两种以上字符组合">
+					
+					<!--  出错弹框 -->
+					<div class="passworld_alter_right passworld_alter clearfix" style="display: none;">
+						<div class="register_passworld_b"></div>
+						<div class="register_passworld_a">请输入有效密码！</div>
+					</div>
+
+					<div class="passworld_alter_left passworld_alter clearfix" style="display: none;">
+						<div class="register_passworld_a">请输入有效密码！</div>
+						<div class="register_passworld_b"></div>
+					</div>
+				</div>
+
+				<!--  确认密码 -->
+				<div class="register_okpassworld clearfix">
+					<div class="register_okpassworld_img">确认密码</div>
+					<input type="password" class="register_okpassworld_put" name="register_okpassworld" placeholder="再次确认密码">
+
+					<!--  出错弹框 -->
+					<div class="okpassworld_alter_right okpassworld_alter clearfix" style="display: none;">
+						<div class="register_okpassworld_b"></div>
+						<div class="register_okpassworld_a">与设置密码不一致！</div>
+					</div>
+
+					<div class="okpassworld_alter_left okpassworld_alter clearfix" style="display: none;">
+						<div class="register_okpassworld_a">与设置密码不一致！</div>
+						<div class="register_okpassworld_b"></div>
+					</div>
+				</div>
+
+				<div class="register_success" style="display: none;">
+					注册成功
+					<span></span>
+				</div>
+			</form>
+			
+			<div class="register_con_pact">点击注册，表示您同意丫丫网<a href="###">《服务协议》</a></div>
+
+			<div class="register_con_success" id="check-btn">同意协议并注册</div>
+		</div>
+	</div>
+
+
+	<!--  尾部  -->
+	<div class="register_footer">
+		<ul class="footer_list">
+			<li><a href="###">关于丫丫</a></li>
+			<li><a href="###">会员俱乐部</a></li>
+			<li><a href="###">高薪诚聘</a></li>
+			<li><a href="###">业务合作</a></li>
+			<li><a href="###">会员积分</a></li>
+			<li><a href="###">投诉建议</a></li>
+		</ul>
+		<div class="footer_copyright">
+			版权所有 丫丫网 © Copyright 2007 - 2016 www.yaya.cn All Rights Reserved.   
+			<span><a href="###">滇ICP备11005817号-7</a></span>   
+			<span><a href="###">滇公网安备53011102000207号</a></span>
+			<div>增值电信业务经营许可证：滇B2-20160011</div>
+		</div>
+	</div>
+
+
+	
+</body>
+
+
+<!--  验证码  -->
+ <script type="text/javascript" src="../js/verify.min.js" ></script>
+
+<script src="../js/register.js"></script>
+</html>

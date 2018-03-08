@@ -1,0 +1,66 @@
+h2{
+	color: #fff;
+}
+.head{
+	height: 100px;
+	background:  #2BA4DE;
+}
+.menu{
+	margin-top: 20px;
+}
+.menu ul ,.menu ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+.nav{
+	background: #2BA4DE;
+}
+.nav a{
+	line-height: 30px;
+	color: #fff;
+	text-decoration: none;
+}
+section{
+	min-width: 800px;
+}
+.left_menu{
+	background: #656565;
+	height: 670px;
+	padding-top: 30px;
+}
+.right_con{
+	border: 2px solid #333;
+	height: 670px;
+	padding-top: 30px;
+}
+.left_menu ul{
+	padding-left: 30px;
+}
+.left_menu ul li{
+	margin-bottom: 3px;
+	font-size: 16px;
+	color: #333;
+	cursor: pointer;
+	user-select:none;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
